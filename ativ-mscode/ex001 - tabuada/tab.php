@@ -13,13 +13,15 @@
         </header>
         <main>
             <?php 
-                function criaTabuada(){
-                    $numero = $_GET["numero"];
+                function criaTabuada($numero){
                     for($i=1; $i<11; $i++){
                         $soma = $i + $numero;
                         echo "<p>$i + $numero = $soma </p>";
                     }
                 }
+
+                $numero = $_GET["numero"];
+                criaTabuada($numero);
             ?>
         </main>
         <p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>

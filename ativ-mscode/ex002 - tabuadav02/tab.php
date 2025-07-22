@@ -12,8 +12,6 @@
     <main>
         <?php 
             
-            for()
-
         ?>
     </main>
 </body>
