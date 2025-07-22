@@ -13,10 +13,12 @@
         </header>
         <main>
             <?php 
-                $numero = $_GET["numero"];
-                for($i=1; $i<11; $i++){
-                    $multi = $numero * $i;
-                    echo "<p>$numero x $i = $multi </p>";
+                function criaTabuada(){
+                    $numero = $_GET["numero"];
+                    for($i=1; $i<11; $i++){
+                        $soma = $i + $numero;
+                        echo "<p>$i + $numero = $soma </p>";
+                    }
                 }
             ?>
         </main>
