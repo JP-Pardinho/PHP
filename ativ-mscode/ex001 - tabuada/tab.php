@@ -19,13 +19,11 @@
                         echo "<p>$i + $numero = $soma </p>";
                     }
                 }
-
                 $numero = $_GET["numero"];
                 criaTabuada($numero);
             ?>
         </main>
         <p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>
     </div>
-    
 </body>
 </html>
