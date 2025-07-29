@@ -11,7 +11,7 @@
         <h1>Resultado final</h1>
         <?php
             $numero = $_GET["numero"];
-            echo "<p>O numero escolhido foi $numero</p>";
+            echo "<p>O numero escolhido foi <strong>$numero</strong></p>";
             echo sprintf('<p>O seu antecessor é %d</p>', $numero -1);
             echo sprintf('<p>O seu sucessor é %d</p>', $numero + 1);
         ?>
