@@ -1,0 +1,6 @@
+<?php 
+    class CpfCnpj {
+        private string $nome;
+    }
+
+?>
