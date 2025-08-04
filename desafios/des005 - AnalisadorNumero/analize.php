@@ -8,13 +8,12 @@
 </head>
 <body>
     <section>
-        <h1>Conversor de moedas v1.0</h1>
+        <h1>Analisador de número real</h1>
         <?php 
-            $reais = $_GET["reais"];
-            $dolar = 5.59;
-            $conversao = $reais / $dolar;
-            echo "<h3>Seus R\$$reais equivalem a U\$$conversao</h3>";
-            echo "<p>*Cotação fixa de R\$$dolar informada diretamente no código</p>";
+            $numero = $_GET['numero'];
+            echo "<p>Analisando o $numero informado pelo usuário:</p>";
+            echo 
+
         ?>
         <a href="javascript:history.go(-1)"><button>Voltar</button></a>
     </section>
